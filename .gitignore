@@ -1,1 +1,12 @@
 node_modules/
+
+# Exclude GitHub repository information and settings
+/.github/
+
+# Exclude build artefacts
+/.releaserc
+/package.json
+/package-lock.json
+
+# Exclude vault workspace configuration file
+/.obsidian/workspace.json
